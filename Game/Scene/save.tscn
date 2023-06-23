@@ -1,0 +1,16 @@
+[gd_scene format=3 uid="uid://j8cscom6n57"]
+
+[node name="Save" type="Node2D"]
+
+[node name="Control" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 0
+offset_left = 1160.0
+offset_top = 40.0
+offset_right = 1200.0
+offset_bottom = 80.0
+
+[node name="ColorRect" type="ColorRect" parent="Control"]
+layout_mode = 0
+offset_right = 80.0
+offset_bottom = 80.0

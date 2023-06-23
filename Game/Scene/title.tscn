@@ -1,0 +1,19 @@
+[gd_scene load_steps=2 format=3 uid="uid://cn7ogjhv74oa1"]
+
+[ext_resource type="Script" path="res://Script/title.gd" id="1_iyt8k"]
+
+[node name="Title" type="Node2D"]
+script = ExtResource("1_iyt8k")
+
+[node name="StartButton" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 0
+offset_left = 160.0
+offset_top = 160.0
+offset_right = 200.0
+offset_bottom = 200.0
+
+[node name="ColorRect" type="ColorRect" parent="StartButton"]
+layout_mode = 0
+offset_right = 960.0
+offset_bottom = 160.0
