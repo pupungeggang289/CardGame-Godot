@@ -19,6 +19,10 @@ config/icon="res://icon.svg"
 
 UI="*res://Script/UI.gd"
 FunctionPhysics="*res://Script/function_physics.gd"
+FunctionSave="*res://Script/function_save.gd"
+EmptySave="*res://Script/empty_save.gd"
+DataSave="*res://Script/data_save.gd"
+Var="*res://Script/var.gd"
 
 [display]
 

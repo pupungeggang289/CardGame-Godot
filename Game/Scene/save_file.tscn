@@ -1,0 +1,47 @@
+[gd_scene load_steps=3 format=3 uid="uid://duqrb30874lt1"]
+
+[ext_resource type="FontFile" uid="uid://hmqgetpqveic" path="res://Font/neodgm.ttf" id="1_aqt5e"]
+
+[sub_resource type="Theme" id="Theme_mu5jf"]
+default_font = ExtResource("1_aqt5e")
+
+[node name="SaveFile" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+
+[node name="ColorRect" type="ColorRect" parent="."]
+layout_mode = 0
+offset_right = 960.0
+offset_bottom = 160.0
+
+[node name="FileName" type="Label" parent="."]
+layout_mode = 0
+offset_left = 8.0
+offset_top = 8.0
+offset_right = 104.0
+offset_bottom = 43.0
+theme = SubResource("Theme_mu5jf")
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 32
+text = "File 1"
+
+[node name="Percentage" type="Label" parent="."]
+offset_left = 160.0
+offset_top = 120.0
+offset_right = 256.0
+offset_bottom = 155.0
+theme = SubResource("Theme_mu5jf")
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 32
+text = "0%
+"
+
+[node name="New" type="Label" parent="."]
+offset_left = 8.0
+offset_top = 120.0
+offset_right = 104.0
+offset_bottom = 155.0
+theme = SubResource("Theme_mu5jf")
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 32
+text = "New"
